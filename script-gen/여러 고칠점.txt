@@ -1,0 +1,13 @@
+.을 이용해서 문장 줄바꿈 사용
+근데 .을 안쓸 경우 줄바꿈 없이 한 줄에 다 적힘
+띄어쓰기 몇번 나오면 고치는걸로 바꿀까 고민
+또 생각해보면 굳이 텍스트 파일 안여니까 필요 없을 수도
+
+- ffmpeg 다운
+
+- pytorch 설치
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+- whisper 설치
+pip3 install setuptools-rust
+pip3 install git+https://github.com/openai/whisper.git
